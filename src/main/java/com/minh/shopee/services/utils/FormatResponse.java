@@ -11,8 +11,8 @@ import org.springframework.lang.Nullable;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
-import com.minh.shopee.models.anotation.ApiDescription;
-import com.minh.shopee.models.response.ResponseData;
+import com.minh.shopee.domain.anotation.ApiDescription;
+import com.minh.shopee.domain.response.ResponseData;
 
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;

@@ -2,7 +2,7 @@ package com.minh.shopee.services;
 
 import java.util.List;
 
-import com.minh.shopee.models.User;
+import com.minh.shopee.domain.User;
 
 public interface UserService {
 
@@ -17,6 +17,6 @@ public interface UserService {
     void updateRefreshToken(String email, String refreshToken);
 
     User findByEmailAndRefreshToken(String email, String refreshToken);
-    
+
     <T> T findByEmailAndRefreshToken(String email, String refreshToken, Class<T> type);
 }
